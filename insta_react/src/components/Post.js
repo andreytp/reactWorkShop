@@ -1,9 +1,14 @@
 import React, {Component} from 'react';
+import User from "./User";
 
 export default class Post extends Component {
     render() {
         return (
             <div className="post">
+                <User src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSixBfaEtwchD0U-A-IuF6pF_OdW3fZYmulouzROijn0K36DEDbEQ&s"
+                      alt="man"
+                      name="Scott"
+                      min  />
                 <img src={this.props.src} alt={this.props.alt}></img>
                 <div className="post__name">
                     some name
