@@ -22,8 +22,6 @@ export default function Users() {
                       name="Scott"
                       min  />
             </div>
-
-
         </div>
     )
 }
